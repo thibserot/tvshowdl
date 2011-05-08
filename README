@@ -1,0 +1,15 @@
+The file dltvshow.py will look at every show in TVSHOW_FILE and then look for new episode on the RSS feed from http://www.ezrss.it/feed. If a new episode is found, its torrent file will be downloaded in TORRENT_FOLDER.
+
+you can call dltvshow.py with the value HD or NO_HD if you want to get the episode in HD (780P / 1080P) or normal quality
+
+Each line of TVSHOW_FILE must look like :
+tvshow_name
+or
+tvshow_name season  episode
+(tabulations are used as a separator)
+
+Example :
+Doctor Who	6	3
+How I Met your mother	6	22
+Fringe	3	21
+The big bang theory
